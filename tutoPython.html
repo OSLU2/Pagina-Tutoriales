@@ -248,57 +248,29 @@
 				<div class="row align-items-center bg-white">
 					<div class="col-lg-6">
 						<div class="left_side">
-							<img class="img-fluid w-100" src="img/Java/siguiente.jpg" alt="">
-							<img class="img-fluid w-100" src="img/Java/siguiente2.jpg" alt="">
+							<img class="img-fluid w-100" src="img/Python/11.jpg" alt="">
+							<img class="img-fluid w-100" src="img/Python/12.jpg" alt="">
 						</div>
 					</div>
 					<div class="offset-lg-1 col-lg-4">
 						<div class="right_side">
 							<h1>
-								Instalar Python y Django en Debian
+								Instalar Django en Debian 8
 							</h1>
 							<p>
-
-							</p>
-
-							<div class="left_side">
-								<img class="img-fluid w-100" src="img/Java/final.jpg" alt="">
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- End ejecutar USB Area -->
-
-		<!-- Start elegirVer Area -->
-		<section class="about-area section-gap">
-			<div class="container">
-				<div class="row align-items-center bg-white">
-					<div class="col-lg-6">
-						<div class="left_side">
-							<img class="img-fluid w-100" src="img/Java/1.jpg" alt="">
-						</div>
-					</div>
-					<div class="offset-lg-1 col-lg-4">
-						<div class="right_side">
-							<h1>
-								Ejecutar instalador de jdk en Debian
-							</h1>
-							<p>
-								Para esto abrimos la terminal iniciamos secion en super usuario usando su y
-								escribimos: <br>
-								echo "deb http://ppa.launchpad.net/webupd8team/java/ubuntu xenial main" | tee /etc/apt/sources.list.d/webupd8team-java.list
-								<br>Despues de ejecutar este comando ejecutamos: <br>
-								echo "deb-src http://ppa.launchpad.net/webupd8team/java/ubuntu xenial main" | tee -a /etc/apt/sources.list.d/webupd8team-java.list
-								<br>El siguiente comando es:<br>
-								apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys EEA14886
-								<br>Ahora actualizamos con:<br>
-								apt-get update
-								<br>Lo siguiente es iniciar la instalacion con el comando: <br>
-								apt-get install oracle-java8-installer
-								<br>Por ultimo se ejecuta:<br>
-								apt-get install oracle-java8-set-default
+								En esta version de Debian existe una version de pyhton 2 y una de version 3.<br>
+								Para actualizar la version de python lo primero que debemos es escribir en el
+								comando en modo super usuario: cd /opt y luego <br>
+								wget https://www.python.org/ftp/python/3.8.1/Python-3.8.1.tgz <br>
+								luego ejecutamos tar xzf Python-3.8.1.tgz <br>
+								Lo siguiente es compilar el codigo fuente entramos a la carpeta extraida
+								cd Python-3.8.1 y luego escribimos <br>
+								sudo ./configure --enable-optimizations<br>
+								sudo make altinstall<br>
+								Ahora se creara un entorno virtual para instalar Django asi que entramos en la
+								terminal una dirección donde se desea crear el entorno virtual, para crear el
+								entorno virtual escribimos python3.8 -m venv [nombre de entorno que quieras darle]<br>
+								lo siguiente es pip install django y listo esta instalado.
 
 							</p>
 						</div>
@@ -306,20 +278,16 @@
 				</div>
 			</div>
 		</section>
-		<!-- End elegirVer Area -->
-
-		<!-- Start ejecutar USB Area -->
 		<section class="about-area section-gap">
 			<div class="container">
 				<div class="row align-items-center bg-white">
 					<div class="col-lg-6">
 						<div class="left_side">
-							<img class="img-fluid w-100" src="img/Java/2.jpg" alt="">
-							<img class="img-fluid w-100" src="img/Java/3.jpg" alt="">
-							<img class="img-fluid w-100" src="img/Java/4.jpg" alt="">
-							<img class="img-fluid w-100" src="img/Java/5.jpg" alt="">
-							<img class="img-fluid w-100" src="img/Java/6.jpg" alt="">
-							<img class="img-fluid w-100" src="img/Java/7.jpg" alt="">
+							<img class="img-fluid w-100" src="img/Python/13.jpg" alt="">
+							<img class="img-fluid w-100" src="img/Python/14.jpg" alt="">
+							<img class="img-fluid w-100" src="img/Python/15.jpg" alt="">
+							<img class="img-fluid w-100" src="img/Python/16.jpg" alt="">
+							<img class="img-fluid w-100" src="img/Python/17.jpg" alt="">
 						</div>
 					</div>
 
@@ -327,6 +295,7 @@
 			</div>
 		</section>
 		<!-- End ejecutar USB Area -->
+
 
 		<!-- Start Footer Area -->
 		<footer class="home-footer text-center">
